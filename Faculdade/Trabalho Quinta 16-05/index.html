@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Entrada e Saída de Crianças</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro diario de alunos</h1>
+        <form action="#" method="post" class="form">
+            <label for="nome">Nome da criança:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="ra">R.A.:</label>
+            <input type="text" id="ra" name="ra" required>
+            <label for="entrada">Hora de Entrada:</label>
+            <input type="time" id="entrada" name="entrada" required>
+            <label for="data">Data:</label>
+            <input type="date" id="data" required><br>
+            <button type="submit" class="btn-entrada">Registrar Entrada</button>
+        </form>
+
+        <div class="saida">
+            <form action="#" method="post" class="form">
+                <label for="nome">Nome da criança:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="ra">R.A.:</label>
+                <input type="text" id="ra" name="ra" required>
+                <label for="saida">Hora de Saída:</label>
+                <input type="time" id="saida" name="saida" required>
+                <label for="data">Data:</label>
+                <input type="date" id="data" required><br>
+                <button type="submit" class="btn-saida">Registrar Saída</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
