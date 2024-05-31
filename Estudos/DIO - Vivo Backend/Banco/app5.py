@@ -29,7 +29,7 @@ def operação(saldo = 0):
                 elif saldo>=saque:
                     print("===========================================\n| Efetuando saque!                        |\n===========================================")
                     time.sleep(1.5)
-                    print("===========================================\nRetire as cedulas abaixo na boca do caixa!")
+                    print("===========================================\nRetire as cedulas abaixo na boca do caixa!\n===========================================")
                     saldo -= saque
             
                 time.sleep(2)
