@@ -3,5 +3,20 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Boletim",
+            "request": "launch",
+            "mainClass": "Boletim",
+            "projectName": "VSCode_a87f1600"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "MinhaClasse",
+            "projectName": "VSCode_a87f1600"
+        }
+    ]
 }
