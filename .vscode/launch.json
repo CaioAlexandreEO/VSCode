@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinhasAnotacoes",
+            "request": "launch",
+            "mainClass": "MinhasAnotacoes",
+            "projectName": "VSCode_a87f1600"
+        },
+        {
+            "type": "java",
             "name": "Boletim",
             "request": "launch",
             "mainClass": "Boletim",
